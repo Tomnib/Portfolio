@@ -6,6 +6,7 @@
   --text-color-2: #fff;
   --overlay-color: rgb(12 12 12 / 63%);
   --accent-text-color: #9b59e6;
+  --box-shadow-color: rgba(159, 61, 250, 0.137);
 }
 
 [data-theme="light"] {
@@ -16,6 +17,7 @@
   --text-color-2: #000;
   --overlay-color: rgb(255 255 255 / 70%);
   --accent-text-color: #5803b8;
+  --box-shadow-color: rgba(89, 4, 168, 0.137);
 }
 
 html,
@@ -30,7 +32,7 @@ body {
   overflow-y: visible;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: "Raleway", sans-serif;
+  font-family: "Sabon", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 60px;
@@ -132,7 +134,7 @@ code {
 }
 
 /*Theme Change Css*/
-.theme_toggler {
+.theme_toggler::before {
   background: var(--primary-color);
   z-index: 999999999;
   left: 10px;
@@ -140,12 +142,11 @@ code {
   display: flex;
   height: 50px;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 10px;  
 }
 
-.theme_toggler svg {
-  width: 2em;
-  height: 2em;
+.theme_toggler:hover {
+  transform: scale(1.2);
 }
 
 /*Footer Css*/
@@ -153,12 +154,13 @@ code {
   background-color: var(--bg-color);
   bottom: 0 !important;
   padding-top: 20px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 8px !important;
   text-align: center !important;
-  position: relative;
-  width: 100%;
-  height: 2.5rem;
-  display: flex;
+  position: relative !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% ;
+  height: 5rem;
 }
 
 @media (max-width: 767px) {
@@ -304,11 +306,21 @@ code {
 }
 
 /*Home Css*/
+.home-section {
+  position: relative !important;
+  padding-top: 100px !important;
+  padding-bottom: 30px !important;
+}
 .homePic {
   justify-content: center !important;
   padding-top: 0em !important;
-  border: 5px solid var(--secondary-color);
-  border-radius: 25px;
+  overflow: hidden !important;
+  height: 100%;
+  margin: 0;
+  box-shadow: 4px 5px 4px 3px var(--box-shadow-color) !important;
+  outline: 5px solid var(--secondary-color);
+  outline-offset: -5px;
+
 }
 
 @media (max-width: 767px) {
@@ -385,6 +397,12 @@ code {
 }
 
 /*Education Css*/
+.education-section {
+  position: relative !important;
+  padding-top: 100px !important;
+  padding-bottom: 30px !important;
+}
+
 .card-img-top {
   opacity: 0.8 !important;
   border: 1px solid var(--secondary-color) !important;
@@ -433,7 +451,7 @@ code {
   padding-bottom: 5px !important;
   opacity: 0.93 !important;
   background-color: var(--bg-color);
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px var(--box-shadow-color) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -448,22 +466,10 @@ code {
   color: rgb(19, 19, 196) !important;
 }
 
-.about-activity {
-  list-style: none !important;
-  text-align: left !important;
-  padding-left: 1px !important;
-}
-
-@media (max-width: 767px) {
-  .about-img {
-    padding-top: 0 !important;
-  }
-}
-
 /*Projects Css*/
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
 }
 

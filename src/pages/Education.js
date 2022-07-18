@@ -7,7 +7,7 @@ import ToolsCard from "../components/cards/ToolsCard";
 
 export const Education = () => {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="education-section">
       <Container>
         <h1 className="title">Education</h1>
         <EducationCard />

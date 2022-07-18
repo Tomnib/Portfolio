@@ -18,15 +18,15 @@ const TechnologiesCard = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRubyonrails />
-        <p class="tech-name">RubyonRails</p>
+        <p class="tech-name">Ruby on Rails</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
-        <p class="tech-name">MySql</p>
+        <p class="tech-name">MySQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-        <p class="tech-name">Postgresql</p>
+        <p class="tech-name">PostgreSQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaNodeJs />
@@ -38,7 +38,7 @@ const TechnologiesCard = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDotnet />
-        <p class="tech-name">.Net</p>
+        <p class="tech-name">.NET</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />
@@ -46,7 +46,7 @@ const TechnologiesCard = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaAngular />
-        <p class="tech-name">Angualr</p>
+        <p class="tech-name">Angular</p>
       </Col>
     </Row>
   );

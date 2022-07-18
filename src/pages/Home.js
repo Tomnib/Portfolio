@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export const Home = () => {
   return (
-    <Container className="home-header">
+    <Container className="home-section">
       <Row>
         <Col md={8} className="center-text">
           <h1 style={{ fontSize: "2.6em" }}>Hi, I'm Thomas Shelton</h1>

@@ -19,7 +19,7 @@ const ToolsCard = () => {
       </Col>
       <Col xs={4} md={3} className="tech-icons">
         <SiMicrosoftoffice />
-        <p class="tech-name">MicrosoftOffice</p>
+        <p class="tech-name">Microsoft Office</p>
       </Col>
       <Col xs={4} md={3} className="tech-icons">
         <SiMicrosoftteams />
@@ -31,7 +31,7 @@ const ToolsCard = () => {
       </Col>
       <Col xs={4} md={3} className="tech-icons">
         <SiPowershell />
-        <p class="tech-name">Powershell</p>
+        <p class="tech-name">PowerShell</p>
       </Col>
       <Col xs={4} md={3} className="tech-icons">
         <SiGitkraken />

@@ -28,7 +28,7 @@ const Languages = () => {
       </Col>
       <Col xs={4} md={3} className="tech-icons">
         <FaCss3Alt />
-        <p class="tech-name">Css</p>
+        <p class="tech-name">CSS</p>
       </Col>
     </Row>
   );

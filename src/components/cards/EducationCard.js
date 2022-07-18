@@ -9,7 +9,7 @@ const EducationCard = () => {
       <Card.Body>
         <Card.Title classname="card-title">University of Memphis</Card.Title>
         <Card.Text classname="card-text">
-          Aug. 2018- May. 2022
+          Aug. 2018 - May. 2022
           <br />
           Major in Computer Science
           <br />
