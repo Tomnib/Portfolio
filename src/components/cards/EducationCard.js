@@ -5,7 +5,7 @@ import bridge from "../../assets/images/bridge.jpg";
 const EducationCard = () => {
   return (
     <Card className="education-card ">
-      <Card.Img variant="top" src={bridge} />
+      <Card.Img variant="top" src={bridge}  />
       <Card.Body>
         <Card.Title classname="card-title">University of Memphis</Card.Title>
         <Card.Text classname="card-text">

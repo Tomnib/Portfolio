@@ -406,6 +406,8 @@ code {
 .card-img-top {
   opacity: 0.8 !important;
   border: 1px solid var(--secondary-color) !important;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 .tech-icons {
@@ -454,6 +456,10 @@ code {
   box-shadow: 4px 5px 4px 3px var(--box-shadow-color) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  max-width: 75% !important;
+  height: auto !important;
+  position: relative;
+  left: 15%;
 }
 .card-text {
   font-size: 1.3em;
